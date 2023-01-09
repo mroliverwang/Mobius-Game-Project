@@ -12,7 +12,7 @@ public class DumbbellController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.4f;
+        speed = 0.3f;
         eventManager = GameObject.Find("EventManager");
     }
 
