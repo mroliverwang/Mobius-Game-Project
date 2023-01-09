@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DumbbellController : MonoBehaviour
 {
-    float speed = 0.4f;
+    float speed = 0.3f;
 
     public GameObject selectedObject;
     public GameObject eventManager;
