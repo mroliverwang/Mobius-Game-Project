@@ -12,7 +12,7 @@ public class DumbbellController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.3f;
+        speed = 0.26f;
         eventManager = GameObject.Find("EventManager");
     }
 
@@ -31,7 +31,7 @@ public class DumbbellController : MonoBehaviour
 
                 if (selectedObject.tag == "Damage")
                 {
-                    selectedObject.transform.Translate(Quaternion.Euler(0, 0, transform.rotation.z) * new Vector3(0, 25.0f * speed, 0) * Time.deltaTime);
+                    selectedObject.transform.Translate(Quaternion.Euler(0, 0, transform.rotation.z) * new Vector3(0, 35.0f * speed, 0) * Time.deltaTime);
 
                 }
             }
