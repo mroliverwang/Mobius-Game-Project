@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovementControl : MonoBehaviour
 {
-    float horizontalForce = 48f;
+    float horizontalForce = 30f;
     float jumpForce = 12f;
     Rigidbody2D rb;
     SpriteRenderer spriteRenderer;

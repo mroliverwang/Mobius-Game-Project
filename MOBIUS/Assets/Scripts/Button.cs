@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
+    public GameObject EventManager;
     // Start is called before the first frame update
     void Start()
     {
-
+        EventManager = GameObject.Find("EventManager");
     }
 
     // Update is called once per frame
@@ -22,7 +23,10 @@ public class Button : MonoBehaviour
     }
     public void Jump2()
     {
-        SceneManager.LoadScene(2);
+        if (EventManager.GetComponent<EventManager>().gameStage == -1)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
     public void Jump3()
     {
@@ -32,9 +36,6 @@ public class Button : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
-    public void Jump5()
-    {
-        SceneManager.LoadScene(0);
-    }
-
+    
+    
 }

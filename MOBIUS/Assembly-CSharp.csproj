@@ -60,8 +60,11 @@
     <Compile Include="Assets\Scripts\ArrowMovement.cs" />
     <Compile Include="Assets\Scripts\DumbbellController.cs" />
     <Compile Include="Assets\Scripts\SentenceController.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\MovementControl.cs" />
     <Compile Include="Assets\Scripts\DarkSeedController.cs" />
+    <Compile Include="Assets\Scripts\ClickToFight.cs" />
     <Compile Include="Assets\Scripts\onHitDamage.cs" />
     <Compile Include="Assets\Scripts\MouseFollowing.cs" />
   </ItemGroup>

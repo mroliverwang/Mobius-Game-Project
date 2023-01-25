@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class EventManager : MonoBehaviour
         if (darkseed.GetComponent<DarkSeedController>().health <=0)
         {
             //reload the scene
+            SceneManager.LoadScene(6);
         }
     }
 }
